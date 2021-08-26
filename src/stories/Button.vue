@@ -1,6 +1,6 @@
 <template>
 <div class="grid  mt-20  justify-center items-center">
-  <a-button class=" bg-red-500 grid place-content-center grid-flow-col py-6 p-8 text-white">submit</a-button>
+  <a-button class=" bg-red-500 grid place-content-center grid-flow-col py-6 p-8 text-white"></a-button>
 
   <a-button type="button" :class="classes" @click="onClick" :style="style">{{ label }}</a-button>
 </div>
